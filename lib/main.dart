@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/': (context) => InboxPage(),
-        '/update_data': (context) => UpdateFormScreen(),
-        '/add_data': (context) => UserFormScreen()
+        '/': (context) => const InboxPage(),
+        '/update_data': (context) => const UpdateFormScreen(),
+        '/add_data': (context) => const UserFormScreen()
       },
       title: 'Flutter Demo',
       theme: ThemeData(
